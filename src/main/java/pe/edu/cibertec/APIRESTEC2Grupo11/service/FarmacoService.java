@@ -40,8 +40,6 @@ public class FarmacoService implements IFarmacoService {
             farmaco.setIdFarmaco(id);
             return farmacoRepository.save(farmaco);
         } else {
-            // Manejo de error si el Farmaco con el id especificado no existe
-            // Puedes lanzar una excepción o realizar otro manejo apropiado
             return null;
         }
     }
