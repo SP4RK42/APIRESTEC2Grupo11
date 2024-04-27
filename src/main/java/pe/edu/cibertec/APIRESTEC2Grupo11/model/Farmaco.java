@@ -21,4 +21,6 @@ public class Farmaco {
     private String Composicion;
     @Column(name = "fechavencimiento")
     private Date FechaVencimiento;
+
+    //Nota: mapear las columnas siempre en minuscula si no quieres desvelarte de nuevo
 }
